@@ -1,0 +1,12 @@
+11
+IT 7
+IH 5
+IT 4
+O
+S 4
+RH
+S 7
+O
+RT
+O
+S 5
