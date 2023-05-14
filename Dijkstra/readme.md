@@ -101,7 +101,7 @@ Note 1: Calculating the total distance in the network: you need to calculate & r
 
 For example, given shortest path consists of two edges with distances A and B:
 
-[AAA]
+![](https://github.com/frankkn/Data_Structure/blob/master/Dijkstra/A.png)
 
 * Do: round the distance of edges A & B first, then sum them as total = A + B
 
@@ -117,7 +117,7 @@ Note 2: If two paths have the same length of the shortest path but a different s
 
 For instance, if there’s a 4 different sequence of nodes (path) that yields the shortest path (same distance):
 
-[BBB]
+![](https://github.com/frankkn/Data_Structure/blob/master/Dijkstra/B.png)
 
 We will iterate from the beginning of the node sequences:
 
@@ -145,7 +145,7 @@ We will iterate from the beginning of the node sequences:
 
 Since we only have one remaining candidate, we select Path 1 to represent the shortest path
 
-[CCC]
+![](https://github.com/frankkn/Data_Structure/blob/master/Dijkstra/C.png)
 
 ### Input
 
@@ -180,7 +180,7 @@ For example, we want to connect the nodes with ID number 6 and 3, which has 70 m
 ```
 INSERT_EDGE 6 3 70     // Equivalent to INSERT_EDGE 3 6 70 (distance = 1000/70 = 14.29)
 ```
-[DDD]
+![]https://github.com/frankkn/Data_Structure/blob/master/Dijkstra/D.png
 It's guaranteed that:
 
 * Edges consisting of the same pair will not be inserted more than once
@@ -265,7 +265,7 @@ using namespace std;
 
 ### Graph Illustration
 
-[EEE]
+![](https://github.com/frankkn/Data_Structure/blob/master/Dijkstra/E.png)
 
 ### Sample Input 1
 
