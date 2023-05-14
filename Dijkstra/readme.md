@@ -180,7 +180,7 @@ For example, we want to connect the nodes with ID number 6 and 3, which has 70 m
 ```
 INSERT_EDGE 6 3 70     // Equivalent to INSERT_EDGE 3 6 70 (distance = 1000/70 = 14.29)
 ```
-![]https://github.com/frankkn/Data_Structure/blob/master/Dijkstra/D.png
+![](https://github.com/frankkn/Data_Structure/blob/master/Dijkstra/D.png)
 It's guaranteed that:
 
 * Edges consisting of the same pair will not be inserted more than once
